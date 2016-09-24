@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  roomNumber: 1
+  size: MyString
+  status: MyString
+  building: MyString
+  date: 2016-09-22
+  time: 2016-09-22 01:07:04
+
+two:
+  roomNumber: 1
+  size: MyString
+  status: MyString
+  building: MyString
+  date: 2016-09-22
+  time: 2016-09-22 01:07:04
