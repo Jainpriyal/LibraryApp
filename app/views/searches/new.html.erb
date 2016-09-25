@@ -9,15 +9,15 @@
 
     <div class="field">
     <%= s.label :size %><br>
-    <%= s.select :size, ['small', 'medium', 'large'] %>
+    <%= s.select :size, ['4', '6', '8'] %>
     </div>
     <div class="field">
       <%= s.label :status %><br>
-      <%= s.select :status, ['Available', 'Booked'] %>
+      <%= s.select :status, ['available', 'booked'] %>
     </div>
     <div class="field">
       <%= s.label :building %><br>
-      <%= s.select :building, ['Hunt', 'Hill' ] %>
+      <%= s.select :building, ['James B. Hunt', 'D.H. Hill' ] %>
     </div>
 
     <div class = "action"><%= s.submit "Search", class: "pure-button pure-button-primary" %></div>
