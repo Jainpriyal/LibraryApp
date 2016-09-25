@@ -6,13 +6,20 @@
 </style>
 <h1>Listing Rooms</h1>
 
+  <%= form_tag rooms_path, :method => 'get' do %>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search" %>
+  <% end %>
+
+  <%= link_to "Advanced Search", new_search_path %>
+
 <table>
   <thead>
     <tr>
       <th>Room Number</th>
       <th>Building</th>
       <th>Size</th>
-      <th colspan="4"></th>
+      <th>colspan="4"</th>
     </tr>
   </thead>
 
